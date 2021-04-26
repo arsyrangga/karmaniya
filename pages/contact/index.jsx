@@ -1,10 +1,10 @@
+import Navbar from "../../components/navbar/Navbar";
+import "./Contact.css";
 import Head from "next/head";
-import Navbar from "../components/navbar/Navbar";
-import "./Home.css";
 
-export default function Home() {
+const Index = () => {
   return (
-    <div className="containers">
+    <div className="contact">
       <Head>
         <title>Karmania</title>
         <link
@@ -17,4 +17,6 @@ export default function Home() {
       <Navbar />
     </div>
   );
-}
+};
+
+export default Index;

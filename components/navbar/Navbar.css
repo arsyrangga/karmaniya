@@ -1,0 +1,66 @@
+.navbar {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  border-bottom: 1px solid #5c2a03;
+  align-items: center;
+  padding: 0 5%;
+  background-color: white;
+}
+
+.brand {
+  width: 120px;
+  height: 60px;
+}
+
+.navRight {
+  height: 100%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.inputNav {
+  width: 120px;
+  height: 22.5px;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.navRight .fab {
+  background-color: #ebbb92;
+  width: 28px;
+  height: 28px;
+  border-radius: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  color: #5c2a03;
+  opacity: 0.9;
+}
+
+.reserve {
+  border: none;
+  border-radius: 900px;
+  width: 125px;
+  height: 30px;
+  background-color: #5c2a03;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.inputcontainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.inputcontainer .fas {
+  position: absolute;
+  right: 5px;
+  opacity: 0.5;
+}
