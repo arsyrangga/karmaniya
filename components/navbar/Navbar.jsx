@@ -14,7 +14,7 @@ const Navbar = () => {
         <i class="fab fa-instagram"></i>
         <i class="fab fa-shopify"></i>
 
-        <button className="reserve">Reserve Now</button>
+        <button className="reserve">Reserve Nows</button>
       </div>
     </nav>
   );
