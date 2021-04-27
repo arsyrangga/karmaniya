@@ -3,7 +3,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src="/assets/kamaniya.png" alt="" className="brand" />
+      <img src="/assets/kamaniya-logo.png" alt="" className="brand" />
       <div className="navRight">
         <div className="inputcontainer">
           <input type="text" className="inputNav" />

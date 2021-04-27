@@ -1,12 +1,10 @@
+import Footer from "../components/story/Story";
+import "./Story.css";
 import Head from "next/head";
-import Footer from "../components/footer/Footer"
-import Story from "../components/story/Story"
 
-import "./Home.css";
-
-export default function Home() {
+const Index = () => {
   return (
-    <div className="containers">
+    <div className="story">
       <Head>
         <title>Karmania</title>
         <link
@@ -16,9 +14,10 @@ export default function Home() {
           crossorigin="anonymous"
         ></link>
       </Head>
-      
       <Story/>
       <Footer />
     </div>
   );
-}
+};
+
+export default Index;
