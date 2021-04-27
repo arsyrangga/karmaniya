@@ -1,6 +1,7 @@
 import Footer from "../components/story/Story";
 import "./Story.css";
 import Head from "next/head";
+import Navbar from "../../components/navbar/Navbar";
 
 const Index = () => {
   return (
@@ -14,7 +15,8 @@ const Index = () => {
           crossorigin="anonymous"
         ></link>
       </Head>
-      <Story/>
+      <Navbar />
+      <Story />
       <Footer />
     </div>
   );

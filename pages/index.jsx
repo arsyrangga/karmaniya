@@ -1,6 +1,7 @@
 import Head from "next/head";
-import Footer from "../components/footer/Footer"
-import Story from "../components/story/Story"
+import Footer from "../components/footer/Footer";
+import Navbar from "../components/navbar/Navbar";
+import Story from "../components/story/Story";
 
 import "./Home.css";
 
@@ -16,8 +17,8 @@ export default function Home() {
           crossorigin="anonymous"
         ></link>
       </Head>
-      
-      <Story/>
+      <Navbar />
+      <Story />
       <Footer />
     </div>
   );
