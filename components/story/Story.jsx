@@ -57,6 +57,41 @@ const Story = () => {
           <small>january 5, 2021</small>
         </div>
       </div>
+      <div className="card">
+        <div className="card-image"></div>
+        <div className="card-text">
+          <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+          <small>january 5, 2021</small>
+        </div>
+      </div>
+      <div className="card">
+        <div className="card-image"></div>
+        <div className="card-text">
+          <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+          <small>january 5, 2021</small>
+        </div>
+      </div>
+      <div className="card">
+        <div className="card-image"></div>
+        <div className="card-text">
+          <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+          <small>january 5, 2021</small>
+        </div>
+      </div>
+      <div className="card">
+        <div className="card-image"></div>
+        <div className="card-text">
+          <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+          <small>january 5, 2021</small>
+        </div>
+      </div>
+      <div className="card">
+        <div className="card-image"></div>
+        <div className="card-text">
+          <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+          <small>january 5, 2021</small>
+        </div>
+      </div>
     </div>
   );
 };

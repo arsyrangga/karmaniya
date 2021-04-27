@@ -59,7 +59,20 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.content-contact h2 {
+  color: #5c2a03;
+}
+.content-contact ul {
+  list-style-type: none;
+  right: 0;
+  /* display: flex;
+  justify-content: flex-start; */
+}
+.content-contact .fas {
+  color: #5c2a03;
+}
 .content-contact .fab {
+  width: 30px;
   height: 30px;
   color: #5c2a03;
 }
