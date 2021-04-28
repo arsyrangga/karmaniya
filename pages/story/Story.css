@@ -1,0 +1,72 @@
+.store {
+    padding: 100px;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .lines {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 45px;
+    position: relative;
+  }
+  .lines::after,
+  .lines::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 1.5px;
+    background: #ebbb92;
+    width: 40%;
+    top: 45%;
+  }
+  .lines::after {
+    left: 0;
+  }
+  .lines::before {
+    right: 0;
+  }
+  .lines h1 {
+    color: #5c2a03;
+    text-align: center;
+  }
+  .card {
+    margin-bottom: 30px;
+    width: 31%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 210px 150px;
+    grid-template-areas: "image" "text";
+  
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  .card-image {
+    grid-area: image;
+    background: url("https://images.pexels.com/photos/3188/love-romantic-bath-candlelight.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+  }
+  .card-text {
+    grid-area: text;
+    text-align: center;
+    margin: 10px;
+  }
+  .card-text h2 {
+    color: #5c2a03;
+  }
+  .card-text small {
+    color: gray;
+  }
+  .card:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.6);
+  }
+  

@@ -1,12 +1,9 @@
   .mainAbout{
       padding-left: 5vw;
       padding-right: 5vw;
-      
-      
+      padding-top: 100px;
   }
   .judul{
-    margin-top: 5%;
-    margin-left: 10%;
     overflow-x: hidden;
     display: flex;
   }
@@ -15,8 +12,6 @@
       margin-left: 1%;
       border: 1px solid #ebbb92;
       border-radius: 3px;
-      
-
   }
   .about{
       
