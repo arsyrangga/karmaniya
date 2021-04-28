@@ -15,6 +15,10 @@ export default function Home() {
           crossorigin="anonymous"
         ></link>
         <meta property="og:image" content="/assets/kamaniyalogo.png" />
+        <meta
+          name="description"
+          content="Kamania baby spa We specialised in giving holistic Spa & Massage. A whole package of refreshing and rejuvenating treatment for body and soul. For you and your loved ones"
+        />
       </Head>
       <Navbar />
       <Pages />
