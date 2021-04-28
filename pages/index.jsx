@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/navbar/Navbar";
-import Page from "../components/home/Page";
 import Footer from "../components/footer/Footer";
-
+import Pages from "../components/home/Page";
 
 export default function Home() {
   return (
@@ -17,7 +16,7 @@ export default function Home() {
         ></link>
       </Head>
       <Navbar />
-      <Page />
+      <Pages />
       <Footer />
     </div>
   );
