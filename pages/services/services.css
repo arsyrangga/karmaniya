@@ -1,0 +1,66 @@
+.ourServices{
+   text-align: center;
+   margin-top: 50px;
+   display: flex;
+   margin-left: 140px;
+   margin-right: px;
+   font-size: 25px;
+   color: #5c2a03;
+}
+.hrLeft{
+   background-color: #ebbb92;
+   width: 400px;
+   height: 2px;
+   text-align: center;
+   margin-top: 18px;
+   margin-right: 10px;
+   border-radius: 5px;
+   margin-left: 60px;
+   float: left;
+   
+}
+.hrRight{
+   background-color: #ebbb92;
+   width: 390px;
+   height: 2px;
+   text-align: center;
+   margin-left: 10px;
+   float: right;
+   margin-top: 18px;
+   border-radius: 5px;
+
+}
+.card{
+   margin: 50px;
+   margin-left: 200px;
+   text-align: center;
+   color: #5c2a03;
+  
+   background-color: black;
+}
+.cardKonten1{
+   float: left;
+   width: 20vw;
+   height: 40vh;
+   margin-right: 50px;
+   
+}
+.text1{
+   padding-top: 10px;
+}
+.kata{
+   padding-top: 20px;
+}
+.card2{
+   color: #5c2a03;
+  margin-top: 500px;
+  margin-left: 200px;
+  text-align: center;
+}
+.kontenBijak{
+   text-align: center;
+   padding-top: 500px;
+  padding-bottom: 50px;
+  font-size: 25px;
+  
+}
