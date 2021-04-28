@@ -1,28 +1,18 @@
-/* CSS RESETER */
-html{
-  scroll-behavior: smooth;
+.closeicon {
+  position: absolute;
+  top: 0px;
+  right: -30px;
+  font-size: 16pt;
+  cursor: pointer;
+  color: white;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
+
+.icncontainer {
   width: 100%;
-  height: auto;
-  min-height: 100vh;
-  overflow-x: hidden;
-  background-color: whitesmoke;
+  position: relative;
 }
-p{
-  font-size: 18px;
-  line-height: 2;
-}
-a{
-  color: inherit;
-  text-decoration: none;
-}
-.navbar{
+
+.navbar {
   width: 100vw;
   /* margin: 0 auto; */
   height: 100px;
@@ -36,14 +26,14 @@ a{
   position: fixed;
   border-bottom: 3px solid #5c2a03;
 }
-.logo{
+.logo {
   font-size: 2rem;
   font-weight: 200;
   text-transform: uppercase;
   cursor: pointer;
   margin-left: -8%;
 }
-.logo img{
+.logo img {
   width: 200px;
   height: auto;
   transform: translateY(1px);
@@ -60,23 +50,23 @@ a{
 }
 /* Search */
 form input {
-  width:200px;
+  width: 200px;
   height: 33px;
   border-radius: 5px;
 }
-form label i{
+form label i {
   font-size: 21px;
   display: flex;
   align-items: center;
 }
 
-form label i.fa-search{
+form label i.fa-search {
   line-height: 33px;
   float: right;
   opacity: 0.8;
   color: rgb(167, 162, 167);
 }
-.search_text{
+.search_text {
   border: none;
   outline: none;
   margin-right: -23px;
@@ -84,17 +74,17 @@ form label i.fa-search{
   background-color: whitesmoke;
   float: left;
 }
-.search_text:focus{
+.search_text:focus {
   background-color: rgb(189, 194, 192);
 }
-form::after{
+form::after {
   content: " ";
   clear: both;
   display: table;
 }
 /* Akhir Search */
 
-.menu i.fab{
+.menu i.fab {
   font-size: 18px;
   height: 30px;
   width: 30px;
@@ -105,7 +95,7 @@ form::after{
   background-color: #ebbb92;
   color: #5c2a03;
 }
-.menu li img{
+.menu li img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -115,7 +105,7 @@ form::after{
   display: flex;
   align-items: center;
 }
-.menu .btn-submit{
+.menu .btn-submit {
   padding: 10px;
   width: 100%;
   color: white;
@@ -130,23 +120,24 @@ form::after{
 nav ul {
   display: none;
 }
-nav ul.menu-list a{
+nav ul.menu-list a {
   font-weight: 300;
   color: rgb(255, 255, 255);
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .menu-toggle ul.menu-list {
   list-style: none;
 }
-.menu-toggle{
+.menu-toggle {
   display: flex;
   flex-direction: column;
   height: 20px;
   justify-content: space-between;
   position: relative;
   z-index: 2;
+  cursor: pointer;
 }
-.menu-toggle input{
+.menu-toggle input {
   position: absolute;
   left: -6px;
   top: -3px;
@@ -191,58 +182,46 @@ nav ul.menu-list {
   display: flex;
   left: 0;
   top: 0;
-  width: 15%;
   height: 100vh;
   justify-content: space-evenly;
-  padding-top: 100px;
   flex-direction: column;
   align-items: flex-start;
   padding-left: 40px;
+  padding-right: 80px;
   background-color: #8f583c;
-  z-index: 1;
-  transform: translateX(-100%);
   transition: all 0.8ms;
-  opacity: 0;
   list-style: none;
+  z-index: 99;
 }
-ul.menu-list a{
+ul.menu-list a {
   color: white;
 }
-nav ul.slide{
+nav ul.slide {
   opacity: 1;
   transform: translateX(0);
 }
-.menu-toggle{
+.menu-toggle {
   display: flex;
 }
 /* Responsive Mobile */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   nav ul.menu-list {
-      width: 50%;
+    width: 50%;
   }
   .menu {
-      width: 45%;
-      margin-left: 70px;
+    width: 45%;
+    margin-left: 70px;
   }
   .menu li i.fab,
   .menu li i.fas,
   .menu li img.circle,
-  .menu li form input.search_text{
-      display: none;
+  .menu li form input.search_text {
+    display: none;
   }
-  .logo img{
-      display: none;
+  .logo img {
+    display: none;
   }
 }
-
-
-
-
-
-
-
-
-
 
 .navbar {
   width: 100vw;
