@@ -14,6 +14,7 @@ export default function Home() {
           integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
           crossorigin="anonymous"
         ></link>
+        <meta property="og:image" content="/assets/kamaniyalogo.png" />
       </Head>
       <Navbar />
       <Pages />
