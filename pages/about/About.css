@@ -1,17 +1,35 @@
   .mainAbout{
+<<<<<<< HEAD
       padding-left: 5vw;
       padding-right: 5vw;
       padding-top: 100px;
   }
   .judul{
+=======
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: center;
+      
+      
+  }
+  .judul{
+    margin-top: 70px;
+    margin-left: 50px;
+>>>>>>> 2a517e7629fee55506cafffe35bec86b513d9482
     overflow-x: hidden;
     display: flex;
   }
   .hrLeft{
-      width: 30%;
-      margin-left: 1%;
+      width: 450px;
       border: 1px solid #ebbb92;
       border-radius: 3px;
+<<<<<<< HEAD
+=======
+      text-align: left;
+      background-color: black;
+      
+
+>>>>>>> 2a517e7629fee55506cafffe35bec86b513d9482
   }
   .about{
       
@@ -20,9 +38,10 @@
   }
   .hrRight{
       text-align: right;
-      width: 30%;
-      border: 1px solid #ebbb92;
+      width: 450px;
+      border:1px solid #ebbb92;
       float: right;
+      border-radius: 3px;
   }
 
   .gambar1{
@@ -46,6 +65,7 @@
       padding-top: 3px;
       padding-bottom: 50px;
       line-height: 1.5;
+      text-align: left;
   }
   .tulisan2{
       padding-top: 30px;
