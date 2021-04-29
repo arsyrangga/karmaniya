@@ -75,17 +75,17 @@ const Navbar = () => {
           </form>
         </li>
         <li>
-          <a href="https://macam-macamperalatan.surge.sh">
+          <a href="">
             <i class="fab fa-facebook-f"></i>
           </a>
         </li>
         <li>
-          <a href="https://macam-macamperalatan.surge.sh">
+          <a href="">
             <i class="fab fa-instagram"></i>
           </a>
         </li>
         <li>
-          <a href="https://macam-macamperalatan.surge.sh">
+          <a href="">
             <img src="/assets/Tokopedia.png" alt="Tokopedia" />
           </a>
         </li>

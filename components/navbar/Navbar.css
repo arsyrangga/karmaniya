@@ -32,10 +32,11 @@
   text-transform: uppercase;
   cursor: pointer;
   margin-left: -8%;
+  margin-top: -4px;
 }
 .logo img {
-  width: 200px;
-  height: auto;
+  width: 150px;
+  height: 80px;
   transform: translateY(1px);
 }
 .menu {
@@ -106,10 +107,11 @@ form::after {
   align-items: center;
 }
 .menu .btn-submit {
-  padding: 10px;
+  padding: 5px;
   width: 100%;
   color: white;
   font-weight: 500;
+  font-size: 14px;
   border-radius: 30px;
   outline: none;
   border: none;
@@ -208,13 +210,16 @@ nav ul.slide {
   nav ul.menu-list {
     width: 50%;
   }
+  nav ul.menu-list a{
+    font-size: 14px;
+  }
   .menu {
     width: 45%;
     margin-left: 70px;
   }
   .menu li i.fab,
   .menu li i.fas,
-  .menu li img.circle,
+  .menu li img,
   .menu li form input.search_text {
     display: none;
   }

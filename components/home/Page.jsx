@@ -11,7 +11,7 @@ const Pages = () => {
       </div>
       <div className="produk_terbaru">
         <div className="gallery">
-          <a href="../detail/Detail">
+          <a href="/components/detai/Detail">
             <img src="/assets/2.jpg" alt="" />
           </a>
           <a href="">
@@ -40,7 +40,10 @@ const Pages = () => {
           </a>
         </div>
         <div className="btn">
-          <a href="javascript:void();" className="readmore-btn">
+          <a href="javascript:void();" className="readmore-btn" onClick={() => {
+            setshow(true);
+          }}
+          >
             See More
           </a>
         </div>
