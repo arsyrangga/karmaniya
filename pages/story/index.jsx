@@ -1,10 +1,10 @@
-import Navbar from "../../components/navbar/Navbar"
+import Navbar from "../../components/navbar/Navbar";
 import "./Story.css";
 import Head from "next/head";
-import Footer from "../../components/footer/Footer"
+import Footer from "../../components/footer/Footer";
 // import React from "react";
 
-const Story = () => {
+const Index = () => {
   return (
     <div className="story">
       <Head>
@@ -111,4 +111,4 @@ const Story = () => {
   );
 };
 
-export default Story;
+export default Index;
