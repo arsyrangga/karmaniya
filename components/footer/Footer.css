@@ -87,3 +87,22 @@
   height: 100%;
   padding: 20px 0;
 }
+@media screen and (max-width:1150px){
+  .footer-content{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .content-about{
+    width: 100%;
+    flex-direction: column;
+
+    
+  }
+  .content-contact{
+    width: 100%;
+  }
+  .content-map{
+    width: 100%;
+  }
+}
