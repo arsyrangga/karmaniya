@@ -37,15 +37,14 @@ a {
 }
 
 body::-webkit-scrollbar {
-  width: 6px; /* width of the entire scrollbar */
+  width: 3px; /* width of the entire scrollbar */
 }
 body::-webkit-scrollbar-track {
-  background: transparent; /* color of the tracking area */
+  background: rgba(245, 222, 179, 0); /* color of the tracking area */
 }
 body::-webkit-scrollbar-thumb {
   background-color: #5c2a03; /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
-  border: 3px solid #5c2a03; /* creates padding around scroll thumb */
 }
 
 /* Chrome, Safari, Edge, Opera */
