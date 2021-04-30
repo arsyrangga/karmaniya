@@ -1,13 +1,14 @@
-import Footer from "../components/story/Story";
+import Navbar from "../../components/navbar/Navbar";
 import "./Story.css";
 import Head from "next/head";
-import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
+// import React from "react";
 
 const Index = () => {
   return (
     <div className="story">
       <Head>
-        <title>Karmania</title>
+        <title>Kamania</title>
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
@@ -16,7 +17,95 @@ const Index = () => {
         ></link>
       </Head>
       <Navbar />
-      <Story />
+      <div className="store">
+        <div className="lines">
+          <h1>Stories</h1>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-image"></div>
+          <div className="card-text">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h2>
+            <small>january 5, 2021</small>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
