@@ -27,28 +27,28 @@ const Navbar = () => {
             ></i>
           </div>
           <li>
-            <a href="">HOME</a>
+            <a href="/">HOME</a>
           </li>
           <li>
-            <a href="">PROMO</a>
+            <a href="/">PROMO</a>
           </li>
           <li>
-            <a href="">SERVICE</a>
+            <a href="services">SERVICE</a>
           </li>
           <li>
-            <a href="">RETAIL PRODUCTS</a>
+            <a href="/retail-product">RETAIL PRODUCTS</a>
           </li>
           <li>
-            <a href="">STORY</a>
+            <a href="/story">STORY</a>
           </li>
           <li>
-            <a href="">ABOUT US</a>
+            <a href="/about">ABOUT US</a>
           </li>
           <li>
-            <a href="">CONTACT</a>
+            <a href="/contact">CONTACT</a>
           </li>
           <li>
-            <a href="">LOCATION</a>
+            <a href="/location">LOCATION</a>
           </li>
         </ul>
       )}
