@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Carousel from "../components/carousel/Carousel";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 import Story from "../components/story/Story";
@@ -18,6 +19,7 @@ export default function Home() {
         ></link>
       </Head>
       <Navbar />
+      <Carousel/>
       <Story />
       <Footer />
     </div>
