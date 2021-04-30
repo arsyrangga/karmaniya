@@ -2,7 +2,6 @@ import Head from "next/head";
 import Carousel from "../components/carousel/Carousel";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
 import Pages from "../components/home/Page";
 
 export default function Home() {
@@ -24,7 +23,6 @@ export default function Home() {
       </Head>
       <Navbar />
       <Carousel />
-      <Story />
       <Pages />
       <Footer />
     </div>

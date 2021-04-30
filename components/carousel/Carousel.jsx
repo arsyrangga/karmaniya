@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import "./Carousel.css";
 
@@ -52,11 +51,10 @@ const Carousel = () => {
               keyboard_arrow_left
             </span>
           </div>
-          <Image
-            src="/assets/project1.JPG"
+          <img
+            src="https://picsum.photos/seed/20/300"
             alt="Picture of the author"
-            layout="fill"
-            objectFit="cover"
+            className="imgCarousel"
           />
           <div className="cardRight">
             <span
@@ -114,11 +112,10 @@ const Carousel = () => {
               keyboard_arrow_left
             </span>
           </div>
-          <Image
-            src="/assets/project2.JPG"
+          <img
+            src="https://picsum.photos/seed/21/300"
             alt="Picture of the author"
-            layout="fill"
-            objectFit="cover"
+            className="imgCarousel"
           />
           <div className="cardRight">
             <span
@@ -177,11 +174,10 @@ const Carousel = () => {
               keyboard_arrow_left
             </span>
           </div>
-          <Image
-            src="/assets/project3.jpg"
+          <img
+            src="https://picsum.photos/seed/22/300"
             alt="Picture of the author"
-            layout="fill"
-            objectFit="cover"
+            className="imgCarousel"
           />
           <div className="cardRight">
             <span
@@ -239,11 +235,10 @@ const Carousel = () => {
               keyboard_arrow_left
             </span>
           </div>
-          <Image
-            src="/assets/project4.jpg"
+          <img
+            src="https://picsum.photos/seed/24/300"
             alt="Picture of the author"
-            layout="fill"
-            objectFit="cover"
+            className="imgCarousel"
           />
           <div className="cardRight">
             <span
