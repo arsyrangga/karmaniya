@@ -223,8 +223,16 @@ nav ul.slide {
   .menu li form input.search_text {
     display: none;
   }
+
+  .logo {
+    margin: 0;
+  }
   .logo img {
-    display: none;
+  }
+  .menu {
+    justify-content: space-between;
+    margin: 0;
+    width: auto;
   }
 }
 
