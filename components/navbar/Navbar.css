@@ -107,11 +107,11 @@ form::after {
   align-items: center;
 }
 .menu .btn-submit {
-  padding: 5px;
+  padding: 6px 12.5px;
   width: 100%;
   color: white;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 30px;
   outline: none;
   border: none;
@@ -210,7 +210,7 @@ nav ul.slide {
   nav ul.menu-list {
     width: 50%;
   }
-  nav ul.menu-list a{
+  nav ul.menu-list a {
     font-size: 14px;
   }
   .menu {
