@@ -1,16 +1,17 @@
-.box{
-    width: 70%;
-    margin: 80px auto;
-    border: 10px solid transparent;
+.box {
+  width: 70%;
+  margin: 80px auto;
+  border: 10px solid transparent;
+  padding-top: 20px;
 }
-.image img{
-    display: block;
-    margin: auto;
-    width: 100%;
+.image img {
+  display: block;
+  margin: auto;
+  width: 100%;
 }
 .content p {
-    padding-top: 80px;
-    font-size: 18px;
-    text-indent: 30px;
-    text-align: justify;
+  padding-top: 50px;
+  font-size: 18px;
+  text-indent: 30px;
+  text-align: justify;
 }

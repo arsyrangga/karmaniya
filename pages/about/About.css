@@ -1,6 +1,7 @@
 .mainAbout {
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-top: 10%;
+  /* padding-left: 50px;
+  padding-right: 50px; */
   text-align: center;
 }
 .judul {
@@ -29,14 +30,16 @@
 
 .gambar1 {
   padding-top: 2vw;
-  padding: 10px;
-  margin: 100px;
-  width: 1000px;
+  /* padding: 10px; */
+  /* margin: 100px; */
+  padding-left: 20px;
+  padding-right: 30px;
+  width: 100vw;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 .tesGambar {
-  width: 1000px;
+  width: 100vw;
   height: 500px;
   background-color: grey;
   color: grey;
@@ -54,7 +57,10 @@
 }
 @media (max-width: 600px) {
   .grid {
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
+  }
+  .mainAbout {
+    margin-top: 30%;
   }
 }

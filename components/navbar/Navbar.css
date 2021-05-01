@@ -212,7 +212,7 @@ nav ul.slide {
     width: 50%;
   }
   nav ul.menu-list a {
-    font-size: 14px;
+    font-size: 12px;
   }
   .menu {
     width: 45%;
@@ -227,8 +227,6 @@ nav ul.slide {
 
   .logo {
     margin: 0;
-  }
-  .logo img {
   }
   .menu {
     justify-content: space-between;

@@ -11,38 +11,41 @@ const Pages = () => {
       </div>
       <div className="produk_terbaru">
         <div className="gallery">
-          <a href="/components/detai/Detail">
+          <a href="/detail">
             <img src="/assets/2.jpg" alt="" />
           </a>
-          <a href="">
+          <a href="/detail">
             <img src="/assets/2.jpg" alt="" />
           </a>
-          <a href="">
+          <a href="/detail">
             <img src="/assets/3.jpg" alt="" />
           </a>
-          <a href="">
+          <a href="/detail">
             <img src="/assets/4.jpg" alt="" />
           </a>
-          <a href="">
+          <a href="/detail">
             <img src="/assets/5.jpg" alt="" />
           </a>
-          <a href="">
+          <a href="/detail">
             <img src="/assets/6.jpg" alt="" />
           </a>
-          <a href="">
+          <a href="/detail">
             <img src="/assets/7.jpg" alt="" />
           </a>
-          <a href="">
+          <a href="/detail">
             <img src="/assets/8.jpg" alt="" />
           </a>
-          <a href="">
+          <a href="/detail">
             <img src="/assets/9.jpg" alt="" />
           </a>
         </div>
         <div className="btn">
-          <a href="javascript:void();" className="readmore-btn" onClick={() => {
-            setshow(true);
-          }}
+          <a
+            href="javascript:void();"
+            className="readmore-btn"
+            onClick={() => {
+              setshow(true);
+            }}
           >
             See More
           </a>
