@@ -38,6 +38,9 @@ const Pages = () => {
           <a href="/detail">
             <img src="/assets/9.jpg" alt="" />
           </a>
+          <a href="/detail">
+            <img src="/assets/10.jpg" alt="" />
+          </a>
         </div>
         <div className="btn">
           <a

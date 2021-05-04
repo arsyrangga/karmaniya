@@ -209,10 +209,10 @@ nav ul.slide {
 /* Responsive Mobile */
 @media screen and (max-width: 600px) {
   nav ul.menu-list {
-    width: 50%;
+    width: 100%;
   }
   nav ul.menu-list a {
-    font-size: 12px;
+    font-size: 18px;
   }
   .menu {
     width: 45%;
