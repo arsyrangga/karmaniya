@@ -1,6 +1,7 @@
 import Navbar from "../../components/navbar/Navbar";
 import "./services.css";
 import Head from "next/head";
+import Footer from "../../components/footer/Footer";
 
 const Index = () => {
   return (
@@ -136,6 +137,7 @@ const Index = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
