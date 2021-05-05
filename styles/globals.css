@@ -7,6 +7,10 @@ html {
   box-sizing: border-box;
 }
 
+.container {
+  margin-top: 100px;
+}
+
 body {
   overflow-x: hidden;
   background-color: white !important;
