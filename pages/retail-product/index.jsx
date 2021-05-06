@@ -72,7 +72,12 @@ function Index() {
 
 const RetailCard = () => {
   return (
-    <div className="retailcard">
+    <div
+      className="retailcard"
+      onClick={() => {
+        window.location.href = "/retail-product/produk";
+      }}
+    >
       <img src="https://picsum.photos/seed/921/900" alt="" />
       <h3>Produk Essential Oils 1</h3>
       <p>Rp. 000.000,-</p>

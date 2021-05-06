@@ -60,7 +60,50 @@
     width: 100vw;
     flex-direction: column;
   }
-  .mainAbout {
-    margin-top: 30%;
+  .about {
+    color: #5c2a03;
+  }
+  .hrRight {
+    text-align: right;
+    width: 450px;
+    border: 1px solid #ebbb92;
+    float: right;
+    border-radius: 3px;
+  }
+
+  .gambar1 {
+    padding-top: 2vw;
+    padding: 10px;
+    margin: 100px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .tesGambar {
+    width: 1000px;
+    height: 500px;
+    background-color: grey;
+    color: grey;
+  }
+  .tulisan {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 3px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  .tulisan2 {
+    padding-top: 30px;
+  }
+  @media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+    .mainAbout {
+      width: 50%;
+      padding: 0px;
+    }
   }
 }

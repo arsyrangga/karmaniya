@@ -5,7 +5,7 @@ function Divider({ text }) {
   return (
     <div className="divider">
       <span></span>
-      <h3>{text}s</h3>
+      <h3>{text}</h3>
       <span></span>
     </div>
   );
