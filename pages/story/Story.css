@@ -46,7 +46,6 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
     text-align: center;
   
-    transition: 0.5s ease;
     cursor: pointer;
   }
   .card-image {
@@ -65,8 +64,35 @@
   .card-text small {
     color: gray;
   }
-  .card:hover {
-    transform: scale(1.2);
-    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.6);
+
+  @media screen and (max-width:768px){
+    .lines::after,
+    .lines::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 1.5px;
+    background: #ebbb92;
+    width: 27%;
+    top: 45%;
+    }
+    .lines::after {
+      left: 0;
+    }
+    .lines::before {
+      right: 0;
+    }
+    
   }
+  @media screen and (max-width: 1080px){
+    .card{
+      width: 45%;
+    }
+  }
+  @media screen and (max-width: 970px){
+    .card{
+      width: 100%;
+    }
+  }
+
   
