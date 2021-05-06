@@ -65,7 +65,7 @@
     color: gray;
   }
 
-  @media screen and (max-width:768px){
+  /* @media screen and (max-width:768px){
     .lines::after,
     .lines::before {
     content: "";
@@ -73,7 +73,7 @@
     margin: auto;
     height: 1.5px;
     background: #ebbb92;
-    width: 27%;
+    width: 20%;
     top: 45%;
     }
     .lines::after {
@@ -83,15 +83,39 @@
       right: 0;
     }
     
-  }
+  } */
   @media screen and (max-width: 1080px){
     .card{
       width: 45%;
     }
+    .card-text h2{
+      font-size: 1.2rem;
+      padding-top: 5px;
+    }
   }
-  @media screen and (max-width: 970px){
+  @media screen and (max-width: 500px){
+    .lines::after,
+    .lines::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 1.5px;
+    background: #ebbb92;
+    width: 20%;
+    top: 45%;
+    }
+    .lines::after {
+      left: 0;
+    }
+    .lines::before {
+      right: 0;
+    }
     .card{
       width: 100%;
+    }
+    .card-text h2{
+      font-size: 1.2rem;
+      padding-top: 5px;
     }
   }
 
