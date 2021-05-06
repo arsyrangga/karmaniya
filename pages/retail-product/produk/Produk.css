@@ -1,0 +1,114 @@
+.produg {
+  padding: 0 15%;
+  padding-top: 120px;
+  color: #5c2a03;
+}
+
+.rowprodug {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+.rowprodug img {
+  width: 50%;
+  height: 400px;
+  border-radius: 8px;
+}
+
+.rowprodugright {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.judulprodug {
+  border-bottom: 1.5px solid #ebbb92;
+  padding-bottom: 5px;
+}
+
+.hargaprodug {
+  font-size: 13pt;
+  margin-top: 2px;
+}
+
+.produgbuy {
+  border: none;
+  outline: none;
+  background-color: #ebbb92;
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
+  cursor: pointer;
+}
+
+.produgbuy:hover {
+  background-color: #5c2a03;
+}
+
+.deskripsiprodug {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 13; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.produgcontener {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.produgcard {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.produgcard h3 {
+  margin-top: 5px;
+  font-size: 12.5pt;
+}
+
+.produgcard img {
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 500px) {
+  .produg {
+    padding: 0 5%;
+    padding-top: 100px;
+  }
+  .rowprodug {
+    flex-direction: column;
+    height: auto;
+  }
+  .rowprodug img {
+    width: 100%;
+    height: auto;
+  }
+  .rowprodugright {
+    width: 100%;
+  }
+  .judulprodug {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .hargaprodug {
+    margin-top: 5px;
+    font-size: 13pt;
+  }
+  .produgcontener {
+    flex-wrap: wrap;
+  }
+  .produgcard {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+}
