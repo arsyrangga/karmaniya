@@ -26,7 +26,7 @@ const Index = () => {
     <div className="containerCard">
     
     <a href="/about">
-    <div className="cardKonten">
+    <div className="cardKonteno">
         <img src="https://images.pexels.com/photos/7571030/pexels-photo-7571030.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="test1" width="300px" height="300px"/>
         <div className="text1">
         <h4>Personal Treatments</h4>
@@ -35,7 +35,7 @@ const Index = () => {
     </div>
     </a>
     <a href="/about">
-    <div className="cardKonten">
+    <div className="cardKonteno">
         <img src="https://images.pexels.com/photos/7571030/pexels-photo-7571030.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="test1" width="300px" height="300px"/>
         <div className="text1">
         <h4>Spa Packages</h4>
@@ -44,7 +44,7 @@ const Index = () => {
     </div>
     </a>
     <a href="/about">
-    <div className="cardKonten">
+    <div className="cardKonteno">
         <img src="https://images.pexels.com/photos/7571030/pexels-photo-7571030.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="test1" width="300px" height="300px"/>
         <div className="text1">
         <h4>Baby Spa</h4>
