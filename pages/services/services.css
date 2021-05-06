@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-*{
-   box-sizing: border-box;
-}
-.ourServices{
-   text-align: center;
-   margin-top: 50px;
-   display: flex;
-   margin-left: 140px;
-   margin-right: px;
-   font-size: 25px;
-   color: #5c2a03;
-=======
 .ourServices {
   text-align: center;
   margin-top: 100px;
@@ -19,7 +6,6 @@
   margin-right: px;
   font-size: 25px;
   color: #5c2a03;
->>>>>>> 108b4d0e90ca47ef164b758e6fdf18494555e68c
 }
 .hrLeft {
   background-color: #ebbb92;
@@ -32,19 +18,6 @@
   margin-left: 60px;
   float: left;
 }
-<<<<<<< HEAD
-.hrRight{
-   background-color: #ebbb92;
-   width: 390px;
-   height: 2px;
-   text-align: center;
-   margin-top: 18px;
-   margin-right: 15px;
-   border-radius: 5px;
-   margin-left: 10px;
-   float: right;
-
-=======
 .hrRight {
   background-color: #ebbb92;
   width: 400px;
@@ -55,7 +28,6 @@
   border-radius: 5px;
   margin-left: 10px;
   float: right;
->>>>>>> 108b4d0e90ca47ef164b758e6fdf18494555e68c
 }
 .containerCard {
   margin: 50px;
@@ -64,29 +36,12 @@
   color: #5c2a03;
   display: flex;
 }
-<<<<<<< HEAD
-.cardKonteno{
-   float: left;
-   width: 20vw;
-   height: 40vh;
-   margin-right: 50px;
-   text-align: center;
-  
-}
-.cardKonten1{
-   float: left;
-   width: 20vw;
-   height: 40vh;
-   margin-right: 50px;
-   text-align: center;
-=======
 .cardKonten1 {
   float: left;
   width: 20vw;
   height: 40vh;
   margin-right: 50px;
   text-align: center;
->>>>>>> 108b4d0e90ca47ef164b758e6fdf18494555e68c
 }
 .text1 {
   padding-top: 10px;
@@ -107,53 +62,6 @@
   font-size: 25px;
   color: #5c2a03;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-   .ourServices{
-      padding-bottom: 20px;
-      width: 100%;
-      margin-left: -5px;
-      padding-left: -110px;
-      text-align: center;
-   }
-   .hrLeft{
-      width: 30%;
-   }
-   .hrRight{
-      width: 30%;
-   }
-   .cardKonteno{
-      width: 100%;
-      height: 100%;
-      display: flex;
-      margin-bottom: 20px;
-      background-color: #ebbb92;
-      flex-direction: column;
-      
-   }
-   .cardKonten1{
-     width: 100%;
-     margin: 0px 200px 220px -100px;
-     background-color: aqua;
-     text-align: center;
-     
-   }
-   .containerCard{
-      margin: 0px;
-      padding: 0px;
-      width: 100%;
-   }
-   
-   
-   .kontenBijak{
-      width: 90%;
-      margin-left: 20px;
-      text-align: center;   
-   }
-   
-}
- 
-=======
 @media screen and (max-width: 500px) {
   .container {
     float: none;
@@ -161,4 +69,3 @@
     margin: 0;
   }
 }
->>>>>>> 108b4d0e90ca47ef164b758e6fdf18494555e68c
