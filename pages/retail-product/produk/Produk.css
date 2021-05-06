@@ -111,4 +111,7 @@
     width: 48%;
     margin-bottom: 20px;
   }
+  .rowprodugright {
+    padding-left: 0;
+  }
 }
