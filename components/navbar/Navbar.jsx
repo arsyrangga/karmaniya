@@ -16,42 +16,46 @@ const Navbar = () => {
         <span></span>
       </div>
 
-      {show && (
-        <ul className="menu-list">
-          <div className="icncontainer">
-            <i
-              className="fas fa-times closeicon"
-              onClick={() => {
-                setshow(false);
-              }}
-            ></i>
-          </div>
-          <li>
-            <a href="/">HOME</a>
-          </li>
-          <li>
-            <a href="/">PROMO</a>
-          </li>
-          <li>
-            <a href="services">SERVICE</a>
-          </li>
-          <li>
-            <a href="/retail-product">RETAIL PRODUCTS</a>
-          </li>
-          <li>
-            <a href="/story">STORY</a>
-          </li>
-          <li>
-            <a href="/about">ABOUT US</a>
-          </li>
-          <li>
-            <a href="/contact">CONTACT</a>
-          </li>
-          <li>
-            <a href="/location">LOCATION</a>
-          </li>
-        </ul>
-      )}
+      {/* Navbar side bar */}
+      <ul
+        className="menu-list"
+        style={{
+          transform: show ? "translateX(0px)" : "translateX(-500px)",
+        }}
+      >
+        <div className="icncontainer">
+          <i
+            className="fas fa-times closeicon"
+            onClick={() => {
+              setshow(false);
+            }}
+          ></i>
+        </div>
+        <li>
+          <a href="/">HOME</a>
+        </li>
+        <li>
+          <a href="/">PROMO</a>
+        </li>
+        <li>
+          <a href="services">SERVICE</a>
+        </li>
+        <li>
+          <a href="/retail-product">RETAIL PRODUCTS</a>
+        </li>
+        <li>
+          <a href="/story">STORY</a>
+        </li>
+        <li>
+          <a href="/about">ABOUT US</a>
+        </li>
+        <li>
+          <a href="/contact">CONTACT</a>
+        </li>
+        <li>
+          <a href="/location">LOCATION</a>
+        </li>
+      </ul>
 
       <div className="logo">
         <h3>

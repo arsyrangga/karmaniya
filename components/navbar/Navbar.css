@@ -193,7 +193,7 @@ nav ul.menu-list {
   padding-left: 40px;
   padding-right: 80px;
   background-color: #8f583c;
-  transition: all 0.8ms;
+  transition-duration: 0.5s;
   list-style: none;
   z-index: 99;
 }
