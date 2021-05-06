@@ -1,25 +1,66 @@
-  .mainAbout{
-      padding-left: 50px;
-      padding-right: 50px;
-      text-align: center;
-      
-      
-  }
-  .judul{
-    margin-top: 70px;
-    margin-left: 50px;
-    overflow-x: hidden;
-    display: flex;
-  }
-  .hrLeft{
-      width: 450px;
-      border: 1px solid #ebbb92;
-      border-radius: 3px;
-      text-align: left;
-      background-color: black;
-      
+.mainAbout {
+  margin-top: 10%;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  text-align: center;
+}
+.judul {
+  margin-top: 70px;
+  margin-left: 50px;
+  overflow-x: hidden;
+  display: flex;
+}
+.hrLeft {
+  width: 450px;
+  border: 1px solid #ebbb92;
+  border-radius: 3px;
+  text-align: left;
+  background-color: black;
+}
+.about {
+  color: #5c2a03;
+}
+.hrRight {
+  text-align: right;
+  width: 450px;
+  border: 1px solid #ebbb92;
+  float: right;
+  border-radius: 3px;
+}
 
+.gambar1 {
+  padding-top: 2vw;
+  /* padding: 10px; */
+  /* margin: 100px; */
+  padding-left: 20px;
+  padding-right: 30px;
+  width: 100vw;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.tesGambar {
+  width: 100vw;
+  height: 500px;
+  background-color: grey;
+  color: grey;
+}
+.tulisan {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-top: 3px;
+  padding-bottom: 50px;
+  line-height: 1.5;
+  text-align: left;
+}
+.tulisan2 {
+  padding-top: 30px;
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 100vw;
+    flex-direction: column;
   }
+<<<<<<< HEAD
   .about{
       
       color: #5c2a03;
@@ -69,5 +110,9 @@
       padding: 0px;
         
     }
+=======
+  .mainAbout {
+    margin-top: 30%;
+>>>>>>> 108b4d0e90ca47ef164b758e6fdf18494555e68c
   }
-  
+}

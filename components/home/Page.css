@@ -1,0 +1,256 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #ddd;
+}
+.group {
+  padding-top: 80px;
+}
+/* Membuat Garis tengah Text */
+.pembungkus {
+  text-align: center;
+  margin: 20px 0;
+}
+.pembungkus h2 {
+  position: relative;
+  display: inline-block;
+  font-size: calc(1vw + 1rem);
+}
+.pembungkus h2::before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid black;
+  width: 330px;
+  left: -350px;
+  top: 50%;
+}
+.pembungkus h2::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid black;
+  width: 330px;
+  right: -350px;
+  top: 50%;
+}
+/* Akhir Membuat Garis Tengah Text */
+/* Produk Terbaru */
+img {
+  display: block;
+  width: 100%;
+  /* border-radius: 50%; */
+}
+.gallery {
+  width: 60%;
+  margin: 20px auto;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.produk_terbaru .readmore-btn:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.produk_terbaru.showContent img {
+  height: auto;
+}
+.produk_terbaru.showContent .btn a.readmore-btn {
+  background-color: rebeccapurple;
+}
+.produk_terbaru .btn {
+  padding-top: 10px;
+  text-align: center;
+}
+.produk_terbaru .btn a {
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  color: rgb(153, 144, 144);
+  font-weight: 200;
+  align-items: center;
+  line-height: 50px;
+  border-radius: 10px;
+  border: 3px solid rgb(194, 188, 188);
+  text-decoration: none;
+  margin-top: -15px;
+  background-color: rgba(194, 188, 188, 0.8);
+}
+/* Akhir Produk Terbaru */
+/* Membuat Garis Tengah Text */
+.pembungkus {
+  text-align: center;
+  margin: 20px 0;
+}
+.pembungkus h1 {
+  position: relative;
+  display: inline-block;
+  font-size: calc(1vw + 0.4rem);
+}
+.pembungkus h1::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid black;
+  width: 230px;
+  right: -240px;
+  top: 50%;
+}
+.pembungkus h1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid black;
+  width: 230px;
+  left: -240px;
+  top: 50%;
+}
+/* Akhir Membuat Garis Tengah Text */
+/* Testimoni */
+ul.thumbnail {
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+ul.thumbnail li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 40px;
+}
+img.image {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid rgb(121, 90, 32);
+}
+ul.thumbnail .content h5 {
+  text-align: center;
+  width: 100%;
+  margin: 10px auto;
+  color: rgb(121, 90, 32);
+  font-size: 13px;
+}
+ul.thumbnail .content p {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  font-size: 15px;
+  text-indent: 20px;
+  text-align: center;
+}
+/* Akhir Testimoni */
+/* Membuat Tanda Quote */
+blockquote {
+  text-align: center;
+  font-weight: 200;
+  font-size: calc(1vw + 0.6rem);
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 20px;
+}
+blockquote::before,
+blockquote::after {
+  content: open-quote;
+  font-size: 50px;
+  color: #999;
+  position: relative;
+  top: 20px;
+}
+blockquote::after {
+  content: close-quote;
+  font-size: 50px;
+  color: #999;
+  position: relative;
+  top: 20px;
+}
+/* Akhir Membuat Tanda Quote */
+
+/* Responsive Ukuran Tablet */
+@media screen and (max-width: 768px) {
+  .pembungkus h2::before {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 165px;
+    left: -180px;
+    top: 50%;
+  }
+  .pembungkus h2::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 165px;
+    right: -180px;
+    top: 50%;
+  }
+  .pembungkus h1::before {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 100px;
+    left: -110px;
+    top: 50%;
+  }
+  .pembungkus h1::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 100px;
+    right: -110px;
+    top: 50%;
+  }
+}
+/* Responsive Ukuran Handpone */
+@media screen and (max-width: 600px) {
+  .pembungkus h1::before {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 50px;
+    left: -60px;
+    top: 50%;
+  }
+  .pembungkus h1::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 50px;
+    right: -60px;
+    top: 50%;
+  }
+  .pembungkus h2::before {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 100px;
+    left: -110px;
+    top: 50%;
+  }
+  .pembungkus h2::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid black;
+    width: 100px;
+    right: -110px;
+    top: 50%;
+  }
+  .gallery {
+    width: 80%;
+    grid-template-columns: repeat(2, 1.5fr);
+  }
+  ul.thumbnail {
+    width: 80%;
+  }
+}
