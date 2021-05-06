@@ -2,7 +2,7 @@
   width: 90vw;
   height: 450px;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 0 0 15px 15px;
   box-shadow: 1px 3px 1px 1px rgba(0, 0, 0, 0.25);
   display: flex;
   margin: 0 auto;
@@ -13,7 +13,8 @@
 .imgCarousel {
   background-size: cover;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 0 0 15px 15px;
+
   height: 100%;
   position: absolute;
 }
