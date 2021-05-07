@@ -143,3 +143,65 @@
   }
   
 }
+@media screen and (max-width: 500px) {
+  .mainAbout {
+    width: 1000px;
+   
+   
+  }
+  .about{
+      
+      color: #5c2a03;
+      
+  }
+  .hrLefto{
+    width: 300px;
+   
+    float: left;
+
+  }
+  .hrRighto{
+      text-align: right;
+      width: 300px;
+
+      border:1px solid #ebbb92;
+      float: right;
+      
+  }
+
+  .gambar1{
+    
+    margin-left: -50px;
+      width: 1000px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      
+      
+  }
+  .tesGambar{
+    margin-top: -10px;
+    margin-left: -20px;
+      width: 730px;
+      height: 500px;
+      background-color: grey;
+      color: grey;
+  }
+  .tulisan{
+    margin-left: -20px;
+    margin-right: 250px;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      padding-top: 3px;
+      padding-bottom: 50px;
+      line-height: 1.5;
+      text-align: left;
+      font-size: 1.5em;  
+      
+  }
+  .tulisan2{
+      padding-top: 30px;
+      
+
+  }
+  
+}
