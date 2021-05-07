@@ -24,7 +24,7 @@
 .hrLefto {
   background-color: #ebbb92;
   width: 359px;
-  height: 2px;
+  border:2px solid #ebbb92;
   text-align: center;
   margin-top: 20px;
   margin-right: 10px;
@@ -40,7 +40,7 @@
 .hrRighto {
   background-color: #ebbb92;
   width: 359px;
-  height: 2px;
+  border:2px solid #ebbb92;
   text-align: center;
   margin-top: 20px;
   border-radius: 5px;
@@ -80,64 +80,66 @@
 .tulisan2 {
   padding-top: 30px;
 }
-@media (max-width: 600px) {
-  .grid {
-    width: 100vw;
-    flex-direction: column;
-    background-color: black;
+@media screen and (max-width: 800px) {
+  .mainAbout {
+    width: 100%;
+   
+    margin-left: 0px;
+    padding-left: 130px;
+    
   }
   .about{
       
       color: #5c2a03;
       
   }
-  .hrRight{
+  .hrLefto{
+    width: 195px;
+    margin-left: -190px;
+    float: left;
+
+  }
+  .hrRighto{
       text-align: right;
-      width: 450px;
+      width: 195px;
+
       border:1px solid #ebbb92;
       float: right;
-      border-radius: 3px;
+      
   }
 
   .gambar1{
-      padding-top: 2vw;
-      padding: 10px;
-      margin: 100px;
+    
+    margin-left: -50px;
       width: 1000px;
-      margin-top: 10px;
+      margin-top: 20px;
       margin-bottom: 5px;
+      
       
   }
   .tesGambar{
-      width: 1000px;
+    margin-top: -10px;
+    margin-left: -20px;
+      width: 525px;
       height: 500px;
       background-color: grey;
       color: grey;
   }
   .tulisan{
+    margin-left: -20px;
+    margin-right: 450px;
       margin-top: 50px;
       margin-bottom: 10px;
       padding-top: 3px;
       padding-bottom: 50px;
       line-height: 1.5;
       text-align: left;
+      
   }
   .tulisan2{
       padding-top: 30px;
+      
+
   }
-  @media (max-width: 800px) {
-    .pembungkus{
-      margin-top: 200px;
-      background-color: black;
-    }
-    .grid {
-      width: 100%;
-      flex-direction: column;
-    }
-    .mainAbout{
-      width: 50%;
-      padding: 0px;
-        
-    }
-  }
+  
 }
