@@ -17,15 +17,15 @@ const Index = () => {
       </Head>
       <Navbar />
       <div className="mainAbout">
-        <div className="pembungkus">
-          <hr className="hrLeft" />
-          <h3 className="about">About Us</h3>
-          <hr className="hrRight" />
+        <div className="containerGaris">
+          <hr className="hrLefto" />
+          About Us
+          <hr className="hrRighto" />
         </div>
 
         <div className="gambar1">
           <div className="tesGambar">
-            <p>halo</p>
+            
           </div>
           <div className="tulisan">
             <p>
@@ -53,7 +53,7 @@ const Index = () => {
 
         <div className="gambar1">
           <div className="tesGambar">
-            <p>halo</p>
+            
           </div>
           <div className="tulisan">
             <p>
@@ -81,6 +81,16 @@ const Index = () => {
         <Footer />
       </div>
     </div>
+  );
+};
+
+const garis = () => {
+  return (
+    <div className="ourServices">
+    <div className="hrLeft"></div>
+    Our Services
+    <div className="hrRight"></div>
+  </div>
   );
 };
 

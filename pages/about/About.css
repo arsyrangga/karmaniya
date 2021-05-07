@@ -1,8 +1,10 @@
+
 .mainAbout {
-  margin-top: 10%;
-  /* padding-left: 50px;
-  padding-right: 50px; */
+  margin-top: 140px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
+ 
 }
 .judul {
   margin-top: 70px;
@@ -10,28 +12,47 @@
   overflow-x: hidden;
   display: flex;
 }
-.hrLeft {
-  width: 450px;
-  border: 1px solid #ebbb92;
-  border-radius: 3px;
-  text-align: left;
-  background-color: black;
+.containerGaris{
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  margin-left: 140px;
+  font-size: 25px;
+  color: #5c2a03;
+}
+
+.hrLefto {
+  background-color: #ebbb92;
+  width: 359px;
+  height: 2px;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-left: 55px;
+  float: left;
+  border-top: none;
 }
 .about {
   color: #5c2a03;
+  
 }
-.hrRight {
-  text-align: right;
-  width: 450px;
-  border: 1px solid #ebbb92;
+.hrRighto {
+  background-color: #ebbb92;
+  width: 359px;
+  height: 2px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  border-top: none;
   float: right;
-  border-radius: 3px;
 }
 
 .gambar1 {
   padding-top: 2vw;
-  /* padding: 10px; */
-  /* margin: 100px; */
+  padding: 10px;
+  margin: 100px; 
   padding-left: 20px;
   padding-right: 30px;
   width: 100vw;
@@ -39,18 +60,22 @@
   margin-bottom: 5px;
 }
 .tesGambar {
-  width: 100vw;
+  width: 850px;
   height: 500px;
+  margin-left: 75px;
   background-color: grey;
-  color: grey;
+  
 }
 .tulisan {
+  margin-left: 72px;
+  margin-right: 390px;
   margin-top: 50px;
   margin-bottom: 10px;
   padding-top: 3px;
   padding-bottom: 50px;
   line-height: 1.5;
   text-align: left;
+  
 }
 .tulisan2 {
   padding-top: 30px;
@@ -59,6 +84,7 @@
   .grid {
     width: 100vw;
     flex-direction: column;
+    background-color: black;
   }
   .about{
       
@@ -99,7 +125,11 @@
   .tulisan2{
       padding-top: 30px;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
+    .pembungkus{
+      margin-top: 200px;
+      background-color: black;
+    }
     .grid {
       width: 100%;
       flex-direction: column;
