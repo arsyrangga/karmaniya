@@ -33,7 +33,7 @@ const Index = () => {
                 height="300px"
               />
               <div className="text1">
-                <h4>Spa Packages</h4>
+                <h4>Personal Treatments</h4>
                 <p className="kata">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Architecto ea laborum.
@@ -67,7 +67,7 @@ const Index = () => {
                 height="300px"
               />
               <div className="text1">
-                <h4>Spa Packages</h4>
+                <h4>Baby Spa</h4>
                 <p className="kata">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Architecto ea laborum.
@@ -86,7 +86,7 @@ const Index = () => {
                 height="300px"
               />
               <div className="text1">
-                <h4>Spa Packages</h4>
+                <h4>Kids Packages</h4>
                 <p className="kata">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Architecto ea laborum.
@@ -103,7 +103,7 @@ const Index = () => {
                 height="300px"
               />
               <div className="text1">
-                <h4>Spa Packages</h4>
+                <h4>Pregnancy Spa</h4>
                 <p className="kata">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Architecto ea laborum.
@@ -121,7 +121,7 @@ const Index = () => {
                 height="300px"
               />
               <div className="text1">
-                <h4>Spa Packages</h4>
+                <h4>Post Natal Pacakges</h4>
                 <p className="kata">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Architecto ea laborum.
