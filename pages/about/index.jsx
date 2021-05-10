@@ -19,7 +19,8 @@ const Index = () => {
       <div className="mainAbout">
         <div className="containerGaris">
           <hr className="hrLefto" />
-          About Us
+          <div className="judulo">
+          About Us</div>
           <hr className="hrRighto" />
         </div>
 

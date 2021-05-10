@@ -6,28 +6,27 @@
   text-align: center;
  
 }
-.judul {
-  margin-top: 70px;
-  margin-left: 50px;
-  overflow-x: hidden;
-  display: flex;
+.judulo {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 5px;
 }
 .containerGaris{
-  text-align: center;
   margin-top: 100px;
   display: flex;
   margin-left: 140px;
-  font-size: 25px;
   color: #5c2a03;
 }
 
 .hrLefto {
   background-color: #ebbb92;
-  width: 359px;
-  border:2px solid #ebbb92;
+  width: 361px;
+  border:1px solid #ebbb92;
   text-align: center;
   margin-top: 20px;
-  margin-right: 10px;
+  margin-right: 20px;
   border-radius: 5px;
   margin-left: 55px;
   float: left;
@@ -39,8 +38,8 @@
 }
 .hrRighto {
   background-color: #ebbb92;
-  width: 359px;
-  border:2px solid #ebbb92;
+  width: 361px;
+  border:1px solid #ebbb92;
   text-align: center;
   margin-top: 20px;
   border-radius: 5px;
