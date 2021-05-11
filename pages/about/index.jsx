@@ -16,7 +16,10 @@ const Index = () => {
         ></link>
       </Head>
       <Navbar />
+
+                                  {/* container About  */}
       <div className="mainAbout">
+
                                     {/* Garis dan judul  */}
         <div className="containerGaris">
           <hr className="hrLefto" />
@@ -102,6 +105,7 @@ const Index = () => {
 
         <Footer />
       </div>
+                                    {/* END container About  */}
     </div>
   );
 };
