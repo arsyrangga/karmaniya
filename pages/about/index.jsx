@@ -17,17 +17,25 @@ const Index = () => {
       </Head>
       <Navbar />
       <div className="mainAbout">
+                                    {/* Garis dan judul  */}
         <div className="containerGaris">
           <hr className="hrLefto" />
           <div className="judulo">
           About Us</div>
           <hr className="hrRighto" />
         </div>
+                                    {/* END Garis dan judul  */}
 
+                                    {/* Gambar 1 */}
         <div className="gambar1">
+
+                                    {/* LETAK GAMBAR  */}
           <div className="tesGambar">
             
           </div>
+                                    {/* END LETAK GAMBAR  */}
+
+                                    {/* TULISAN  */}
           <div className="tulisan">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
@@ -50,12 +58,21 @@ const Index = () => {
               </p>
             </div>
           </div>
+                                    {/* END TULISAN  */}
+
         </div>
+                                    {/* END Gambar 1*/}
+
+                                    {/* Gambar 2 */}
 
         <div className="gambar1">
+                                      {/* LETAK GAMBAR 2  */}
           <div className="tesGambar">
             
           </div>
+                                      {/* END LETAK GAMBAR 2  */}
+
+                                      {/* TULISAN GAMBAR 2  */}
           <div className="tulisan">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
@@ -78,20 +95,14 @@ const Index = () => {
               </p>
             </div>
           </div>
+                                    {/* END TULISAN GAMBAR 2  */}
+
         </div>
+                                    {/* END Gambar 2 */}
+
         <Footer />
       </div>
     </div>
-  );
-};
-
-const garis = () => {
-  return (
-    <div className="ourServices">
-    <div className="hrLeft"></div>
-    Our Services
-    <div className="hrRight"></div>
-  </div>
   );
 };
 
