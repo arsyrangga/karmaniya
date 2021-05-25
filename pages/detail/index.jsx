@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <div className="detail">
       <Head>
-        <title>Karmania</title>
+        <title>Karmaniya</title>
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"

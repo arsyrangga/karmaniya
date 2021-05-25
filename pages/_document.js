@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Karmania</title>
+          <title>Karmaniya</title>
           <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"

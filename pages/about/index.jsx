@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <div className="about">
       <Head>
-        <title>Kamania</title>
+        <title>Kamaniya</title>
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"

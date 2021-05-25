@@ -68,3 +68,121 @@ input,
 button {
   outline: none;
 }
+
+:root {
+  /* COLOR */
+  --color-primary: #5c2a03;
+  --color-success: hsl(174, 100%, 29%);
+  --color-info: hsl(80, 100%, 29%);
+  --color-secondary: #f7dec9;
+  --color-dark: rgb(0, 0, 0);
+  --color-light: whitesmoke;
+  --color-danger: hsl(0, 100%, 29%);
+  --color-warning: hsl(42, 100%, 42%);
+
+  /* FONT SIZE */
+  --font-tiny: 0.6rem;
+  --font-small: 0.8rem;
+  --font-regular: 1rem;
+  --font-big: 2rem;
+  --font-huge: 4rem;
+}
+
+.background-primary {
+  background-color: #5c2a03;
+}
+
+.primary {
+  color: #5c2a03 !important;
+}
+
+.background-success {
+  background-color: hsl(174, 100%, 29%);
+}
+
+.success {
+  color: hsl(174, 100%, 29%);
+}
+
+.background-info {
+  background-color: hsl(80, 100%, 29%);
+}
+
+.info {
+  color: hsl(80, 100%, 29%);
+}
+
+.background-secondary {
+  background-color: #f7dec9;
+}
+
+.secondary {
+  color: #f7dec9;
+}
+
+.background-dark {
+  background-color: rgb(0, 0, 0);
+}
+
+.dark {
+  color: rgb(0, 0, 0);
+}
+
+.background-light {
+  background-color: hsl(0, 0%, 96%);
+}
+
+.light {
+  color: hsl(0, 0%, 96%) !important;
+}
+
+.background-danger {
+  background-color: hsl(0, 100%, 29%);
+}
+
+.danger {
+  color: hsl(0, 100%, 29%);
+}
+
+.background-warning {
+  background-color: hsl(42, 100%, 42%);
+}
+
+.warning {
+  color: hsl(42, 100%, 42%);
+}
+
+.border-radius-none {
+  border-radius: 0 !important;
+}
+
+.border-none {
+  border: none;
+}
+
+.border-radius {
+  border-radius: 5px;
+}
+
+.button-active :hover {
+  cursor: pointer;
+}
+
+.button-active:active {
+  opacity: 0.8;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.flex-mid {
+  display: flex;
+  align-items: center;
+}
+
+.middle-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

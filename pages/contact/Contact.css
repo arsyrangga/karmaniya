@@ -1,0 +1,26 @@
+.contact {
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+}
+
+.contactWrapper {
+  width: 100%;
+  background-color: aqua;
+  margin-top: 90px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.contactWrapper input {
+  background-color: none;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

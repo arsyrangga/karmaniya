@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="containers">
       <Head>
-        <title>Karmania</title>
+        <title>Karmaniya</title>
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
