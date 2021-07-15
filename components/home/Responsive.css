@@ -1,0 +1,56 @@
+@media only screen and (max-width:500px){
+    .promo-container{
+        padding: 0 5%;
+        margin-top: 25px;
+    }
+    
+    .promo-description{
+        width: 100%;
+    }
+    
+    .promo-content-container{
+        flex-direction: column;
+        padding:  0 5%;
+    }
+    
+    .promo-content{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .who-container{
+        flex-direction: column;
+    }
+    .who-container-left{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .who-container-right{
+        width: 100%;
+        padding: 0;
+
+    }
+    .who-container-right img{
+        height: 350px;
+    }
+    .home-step-card{
+        flex-direction: column !important;
+        padding:  0 5%;
+
+    }
+    .home-step-card-left{
+        width: 100%;
+        padding: 0;
+    }
+    .home-step-card-right{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .home-step-card-left img{
+        height: 250px;
+    }
+}
+

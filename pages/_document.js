@@ -25,6 +25,8 @@ export default class MyDocument extends Document {
             integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
             crossorigin="anonymous"
           ></link>
+          <meta property="og:image" content="/assets/kamaniyalogo.png" />
+          <link rel="shortcut icon" type="image/jpg" href="/assets/kamaniyalogo.png" />
         </Head>
         <body className="custom_class">
           <Main />

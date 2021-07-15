@@ -67,6 +67,12 @@ input[type="number"] {
 input,
 button {
   outline: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button:active{
+  opacity: 0.5;
 }
 
 :root {

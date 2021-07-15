@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <div className="footer-content">
         <div className="content-about">
           <img src="/assets/kamaniyalogo.png" alt="" />
@@ -33,7 +33,8 @@ const Footer = () => {
           <i class="fab fa-instagram"></i>
           <i class="fab fa-shopify"></i>
         </div>
-        <div className="content-map">
+        <div className="content-map" style={{borderRadius:"10px"}}
+        >
           <iframe
             width="600"
             height="500"

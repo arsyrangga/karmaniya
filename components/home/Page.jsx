@@ -1,131 +1,70 @@
 import "./Page.css";
+import "./Responsive.css";
 import React from "react";
 
 const Pages = () => {
   return (
-    <div className="group">
-      <div className="pembungkus">
-        <h2>
-          <strong>Promo</strong>
-        </h2>
+    <div className="home">
+      <div className="promo-container">
+      <h1 className="primary">Promo</h1>
+      <p className="promo-description primary">We are committed to positively impacting the quality of life
+      through exceptional Baby to Family Wellness Centre.</p>
+    <div className="promo-content-container">
+      <div className="promo-content">
+        <img src="https://picsum.photos/seed/467/900" alt="" />
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       </div>
-      <div className="produk_terbaru">
-        <div className="gallery">
-          <a href="/detail">
-            <img src="/assets/2.jpg" alt="" />
-          </a>
-          <a href="/detail">
-            <img src="/assets/2.jpg" alt="" />
-          </a>
-          <a href="/detail">
-            <img src="/assets/3.jpg" alt="" />
-          </a>
-          <a href="/detail">
-            <img src="/assets/4.jpg" alt="" />
-          </a>
-          <a href="/detail">
-            <img src="/assets/5.jpg" alt="" />
-          </a>
-          <a href="/detail">
-            <img src="/assets/6.jpg" alt="" />
-          </a>
-          <a href="/detail">
-            <img src="/assets/7.jpg" alt="" />
-          </a>
-          <a href="/detail">
-            <img src="/assets/8.jpg" alt="" />
-          </a>
-          <a href="/detail">
-            <img src="/assets/9.jpg" alt="" />
-          </a>
-          <a href="/detail">
-            <img src="/assets/10.jpg" alt="" />
-          </a>
+      <div className="promo-content">
+        <img src="https://picsum.photos/seed/468/900" alt="" />
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+    </div>
+      <button className="button-promo-content">See More</button>
+    </div>
+
+      <div className="who-container">
+        <div className="who-container-left">
+          <h1> Who We Are </h1>
+          <p>We are committed to be the best Baby Spa partners for our customer.</p>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aspernatur suscipit minus sequi, cumque, ullam error quas illo maxime sunt ipsam. Id molestiae sequi deleniti. Natus, autem? Nobis, dicta recusandae?</h3>
+          <div className="button-container">
+          <button className="button-who">Read More</button>
         </div>
-        <div className="btn">
-          <a
-            href="javascript:void();"
-            className="readmore-btn"
-            onClick={() => {
-              setshow(true);
-            }}
-          >
-            See More
-          </a>
+        </div>
+       
+        <div className="who-container-right">
+          <img src="https://picsum.photos/seed/1123/900" alt="" />
         </div>
       </div>
-      <div className="pembungkus">
-        <h1>
-          <strong>Recomended for you and your loved ones</strong>
-        </h1>
+      <div className="promo-container">
+        <h1 className="primary">Promo</h1>
+        <p className="promo-description primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corporis sint corrupti,</p>
       </div>
-      <ul className="thumbnail">
-        <li>
-          <img src="/assets/1.jpeg" alt="" className="image" />
-          <div className="content">
-            <h5>Rekomendasi Personal Treatments</h5>
-            <p>
-              Pilih 1 Layanan dari kategori ini yang ingin ditaruh disini. Pilih
-              1 layanan dari kategori ini yang ingin di tatuh disini.
-            </p>
-          </div>
-        </li>
-        <li>
-          <img src="/assets/2.jpg" alt="" className="image" />
-          <div className="content">
-            <h5>Rekomendasi Spa Packages</h5>
-            <p>
-              Pilih 1 layanan dari kategori ini yang ingin ditaruh di sini.
-              Pilih 1 layanan dari kategori ini yang ingin di taruh disini
-            </p>
-          </div>
-        </li>
-        <li>
-          <img src="/assets/3.jpg" alt="" className="image" />
-          <div className="content">
-            <h5>Rekomendasi Baby Spa</h5>
-            <p>
-              Pilih 1 layanan dari kategori ini yang ingin ditaruh disini. Pilih
-              1 layanan dari kategori ini yang ingin ditaruh disini.
-            </p>
-          </div>
-        </li>
-        <li>
-          <img src="/assets/4.jpg" alt="" className="image" />
-          <div className="content">
-            <h5>Rekomendasi Kids Packages</h5>
-            <p>
-              Pilih 1 layanan dari kategori ini yang ingin ditaruh disini. Pilih
-              1 layanan dari kategori ini yang ingin ditaruh disini.
-            </p>
-          </div>
-        </li>
-        <li>
-          <img src="/assets/5.jpg" alt="" className="image" />
-          <div className="content">
-            <h5>Rekomendasi Pregnancy Spa</h5>
-            <p>
-              Pilih 1 layanan dari kategori ini yang ingin ditaruh disini. Pilih
-              1 layanan dari kategori ini yang ingin ditaruh disini.
-            </p>
-          </div>
-        </li>
-        <li>
-          <img src="/assets/7.jpg" alt="" className="image" />
-          <div className="content">
-            <h5>Rekomendasi Post Natal Packages</h5>
-            <p>
-              Pilih 1 layanan dari kategori ini yang ingin ditaruh disini. Pilih
-              1 layanan dari kategori ini yang ingin ditaruh disini.
-            </p>
-          </div>
-        </li>
-      </ul>
-      <blockquote>
-        True healing comes from the nourshing of the mind,
-        <br></br> the body and the soul
-      </blockquote>
+      <div className="home-step-container">
+    <Card  img="https://picsum.photos/seed/148/900"/>
+    <Card right img="https://picsum.photos/seed/162/900"/>
+    <Card img="https://picsum.photos/seed/190/900"/>
+    <Card right img="https://picsum.photos/seed/155/900" />
+      </div>
+
     </div>
   );
 };
+
+const Card = ({right,img}) =>{
+  return(
+    <div className="home-step-card" style={{flexDirection : right && "row-reverse"}}>
+      <div className="home-step-card-left">
+        <img src={img} alt="" />
+      </div>
+      <div className="home-step-card-right">
+        <h1 className="primary">lorem Ipsum</h1>
+        <p className="primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. adipisicing elit</p>
+      </div>
+    </div>
+  )
+}
+
 export default Pages;

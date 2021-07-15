@@ -22,7 +22,7 @@ export default function Home() {
         />
       </Head>
       <Navbar />
-      <div style={{ marginTop: "80px" }}>
+      <div style={{ marginTop: "85px" }}>
         <Carousel />
       </div>
 

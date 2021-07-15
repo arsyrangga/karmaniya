@@ -52,7 +52,7 @@ const Carousel = () => {
             </span>
           </div>
           <img
-            src="https://picsum.photos/seed/20/300"
+            src="https://picsum.photos/seed/921/1200"
             alt="Picture of the author"
             className="imgCarousel"
           />
@@ -113,7 +113,7 @@ const Carousel = () => {
             </span>
           </div>
           <img
-            src="https://picsum.photos/seed/21/300"
+            src="https://picsum.photos/seed/21/900"
             alt="Picture of the author"
             className="imgCarousel"
           />
@@ -175,7 +175,7 @@ const Carousel = () => {
             </span>
           </div>
           <img
-            src="https://picsum.photos/seed/22/300"
+            src="https://picsum.photos/seed/22/900"
             alt="Picture of the author"
             className="imgCarousel"
           />
@@ -236,7 +236,7 @@ const Carousel = () => {
             </span>
           </div>
           <img
-            src="https://picsum.photos/seed/24/300"
+            src="https://picsum.photos/seed/29/900"
             alt="Picture of the author"
             className="imgCarousel"
           />
