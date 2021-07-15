@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
     </nav>
 
-  <div className="navbar-mobile primary" style={{display: "none", transform : show ? "translateY(-90vh)" : "translateY(0)"}}>
+  <div className="navbar-mobile primary" style={{display: "none", transform : show ? "translateY(0)" : "translateY(-90vh)"}}>
       <a href="/">Home</a>
       <a href="/services">Service</a>
       <a href="/retail-product">Retail Products</a>
